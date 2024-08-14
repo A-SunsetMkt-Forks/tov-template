@@ -37,10 +37,10 @@ devDependencies:
     version: 10.11.1(vue@3.4.37)
   '@vueuse/integrations':
     specifier: ^10.11.1
-    version: 10.11.1(axios@1.7.3)(nprogress@0.2.0)(vue@3.4.37)
+    version: 10.11.1(axios@1.7.4)(nprogress@0.2.0)(vue@3.4.37)
   axios:
-    specifier: ^1.7.3
-    version: 1.7.3
+    specifier: ^1.7.4
+    version: 1.7.4
   browserslist:
     specifier: ^4.23.3
     version: 4.23.3
@@ -2621,7 +2621,7 @@ packages:
       - vue
     dev: true
 
-  /@vueuse/integrations@10.11.1(axios@1.7.3)(nprogress@0.2.0)(vue@3.4.37):
+  /@vueuse/integrations@10.11.1(axios@1.7.4)(nprogress@0.2.0)(vue@3.4.37):
     resolution: {integrity: sha512-Y5hCGBguN+vuVYTZmdd/IMXLOdfS60zAmDmFYc4BKBcMUPZH1n4tdyDECCPjXm0bNT3ZRUy1xzTLGaUje8Xyaw==}
     peerDependencies:
       async-validator: ^4
@@ -2664,7 +2664,7 @@ packages:
     dependencies:
       '@vueuse/core': 10.11.1(vue@3.4.37)
       '@vueuse/shared': 10.11.1(vue@3.4.37)
-      axios: 1.7.3
+      axios: 1.7.4
       nprogress: 0.2.0
       vue-demi: 0.14.10(vue@3.4.37)
     transitivePeerDependencies:
@@ -2864,8 +2864,8 @@ packages:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
     dev: true
 
-  /axios@1.7.3:
-    resolution: {integrity: sha512-Ar7ND9pU99eJ9GpoGQKhKf58GpUOgnzuaB7ueNQ5BMi0p+LZ5oaEnfF999fAArcTIBwXTCHAmGcHOZJaWPq9Nw==}
+  /axios@1.7.4:
+    resolution: {integrity: sha512-DukmaFRnY6AzAALSH4J2M3k6PkaC+MfaAGdEERRWcC9q3/TWQwLpHR8ZRLKTdQ3aBDL64EdluRDjJqKw+BPZEw==}
     dependencies:
       follow-redirects: 1.15.6
       form-data: 4.0.0
